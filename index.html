@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Basic Calculator</h1>
+        <p>Click the button to multiply 55906585071677159191911460572217117143158545066975178397830076013115286817707314942656081380486950500458591732951466575695492624311735394407259516913541749451559969678085257597101234402674801280000000000000000000000000000000000000000000000000000 to 31</p>
+        <p2 id="answer">Answer:</p2><br>
+        <button type="button1" class="btn btn-primary" onclick="
+                    let Number1=55906585071677159191911460572217117143158545066975178397830076013115286817707314942656081380486950500458591732951466575695492624311735394407259516913541749451559969678085257597101234402674801280000000000000000000000000000000000000000000000000000; 
+                    let Number2=31;
+                    let Number3=(Number1*Number2);
+                    document.getElementById('answer').innerHTML='Answer:'+Number3;
+        ">CALCULATE</button>
+        <button type="button2" class="btn btn-success" onclick="window.location.reload()">Refresh</button>
+
+    </div>
+</body>
+</html>
+
